@@ -1,0 +1,22 @@
+name: facial_emotion
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.3
+  - pip
+  - pip:
+      - opencv-python
+      - matplotlib
+      - numpy
+      - pandas
+      - scikit-learn
+      - seaborn
+      - jupyterlab
+      - tensorflow
+      - keras
+      - dlib
+      - imutils
+      - face_recognition

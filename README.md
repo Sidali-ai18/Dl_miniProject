@@ -2,6 +2,14 @@
 
 A simple CNN-based facial emotion recognition system designed to help learn deep learning and CNN fundamentals.
 
+## 📚 Documentation
+
+- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Get up and running in 5 minutes
+- **[QUICKSTART.md](QUICKSTART.md)** - Step-by-step quick start guide
+- **[EXAMPLES.md](EXAMPLES.md)** - Code examples and usage patterns
+- **[DOCUMENTATION.md](DOCUMENTATION.md)** - Detailed explanations of concepts
+- **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - Complete project overview
+
 ## Project Overview
 
 This mini-assessment project demonstrates building a facial emotion recognition model using Convolutional Neural Networks (CNNs). The project is designed for learning purposes and uses photos of you and your friend to classify different facial emotions.

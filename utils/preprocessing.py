@@ -70,7 +70,7 @@ def preprocess_image(image, target_size=(48, 48)):
     return image
 
 
-def load_and_preprocess_image(image_path, target_size=(48, 48), detect_face=True):
+def load_and_preprocess_image(image_path, target_size=(48, 48), detect_face=True, detector=None):
     """
     Load image from path and preprocess it.
     
@@ -78,6 +78,7 @@ def load_and_preprocess_image(image_path, target_size=(48, 48), detect_face=True
         image_path: Path to image file
         target_size: Target size for resizing
         detect_face: Whether to detect and crop face
+        detector: Optional FaceDetector instance to reuse (more efficient for batch processing)
         
     Returns:
         Preprocessed image array or None if face not detected
@@ -90,7 +91,8 @@ def load_and_preprocess_image(image_path, target_size=(48, 48), detect_face=True
     
     # Detect face if requested
     if detect_face:
-        detector = FaceDetector()
+        if detector is None:
+            detector = FaceDetector()
         face = detector.detect_face(image)
         if face is None:
             print(f"No face detected in: {image_path}")

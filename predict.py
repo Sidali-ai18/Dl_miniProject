@@ -10,8 +10,10 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-# Add parent directory to path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Ensure project root is in path for imports
+_project_root = os.path.dirname(os.path.abspath(__file__))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
 
 from utils.preprocessing import FaceDetector, preprocess_image
 

@@ -2,6 +2,12 @@
 
 A simple CNN-based facial emotion recognition system designed to help learn deep learning and CNN fundamentals.
 
+## 🚀 Quick Start for Happy & Neutral Emotions
+
+**Working with Happy and Neutral emotions?** Check out:
+- **[HAPPY_NEUTRAL_SETUP.md](HAPPY_NEUTRAL_SETUP.md)** - Specific guide for 2-emotion recognition
+- **`train_happy_neutral.py`** - Optimized training script for Happy & Neutral
+
 ## 📚 Documentation
 
 - **[GETTING_STARTED.md](GETTING_STARTED.md)** - Get up and running in 5 minutes

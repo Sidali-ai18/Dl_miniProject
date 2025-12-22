@@ -2,6 +2,12 @@
 
 This guide will get you up and running with facial emotion recognition in just 5 minutes!
 
+## 🎯 Quick Path for Happy & Neutral Emotions
+
+**If you're working with Happy and Neutral emotions only**, follow the [HAPPY_NEUTRAL_SETUP.md](HAPPY_NEUTRAL_SETUP.md) guide for a streamlined setup!
+
+Or continue below for the general setup:
+
 ## Prerequisites
 
 - Python 3.7 or higher
